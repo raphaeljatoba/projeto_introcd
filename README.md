@@ -23,7 +23,7 @@ Outrossim, os dois modelos de machine learning foram executados e aprimorados co
 
 As demais variáveis relevantes possuem uma característica em comum de serem filtros fotométricos para observação dos corpos celestes, sendo essas: “u”,”z”, e “g”. É notável que o corpo celeste “Quasar” foi o mais difícil de classificar corretamente, o que se mostra no recall baixo em comparação às demais.
 
-Ambos modelos apresentaram uma acurácia superior a 95%, o treinamento com árvore de decisão e floresta aleatória se mostrou eficiente, as classes tinham um conjunto de filtros fotométricos com correlação alta, facilitando sua distinção com um treinamento adequado.
+Ambos modelos apresentaram uma acurácia superior a 95%, o treinamento com XGBoost e floresta aleatória se mostrou eficiente, as classes tinham um conjunto de filtros fotométricos com correlação alta, facilitando sua distinção com um treinamento adequado.
 
 ## Conclusão
 Ambos os modelos tiveram uma performance satisfatória e conseguiram, com uma boa precisão, fazer a classificação dos corpos celestes, sendo assim válidos para próximas classificações em surveys realizados pela SDSS. A eficiência na classificação dos corpos celestes pode contribuir na categorização e mapeamento de nosso universo, colaborando com diversas áreas no campo científico. Estrelas, galáxias e até os quasares podem ser reconhecidos rapidamente com o modelo bem treinado.
